@@ -1,1 +1,35 @@
 /* место для вашего кода */
+
+body {
+    /* border: 1px solid black; */
+}
+.header_navigation {
+    border: 1px solid black;
+    align-items: center;
+    color: black;
+    height: 293px;
+}
+
+.logo {
+    width: 148px;
+    height: 105px;
+}
+.window {
+    height: 757px;
+    background-color: #000;
+}
+.cover {
+    height: 757px;
+    opacity: 40%;
+}
+.title_general{
+    /* color: #FFFFFF; */
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 30%;
+}
+.subtatle{
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 80%;
+}
