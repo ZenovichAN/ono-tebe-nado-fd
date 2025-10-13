@@ -5,38 +5,43 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles/global.css">
-  <link rel="stylesheet" href="fonts/fonts.css">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./fonts/fonts.css">
+  <link rel="stylesheet" href="./styles/header-styles.css">
+  <link rel="stylesheet" href="./styles/main-styles.css">
   <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
 </head>
 
 <body>
   <header class="header">
-    <nav class="header_navigation">
-      <a href="#">главная</a>
-      <a href="#">посмотреть лоты</a>
-      <a href="#">об аукционе</a>
-      <a href="#"><img class="logo" src="./images/logo-black.svg" alt=""></a>
-      <address>
-        <a href="#" type="tel">+9 999 555 5555</a>
-        <a href="#" type="mail">info@sobaka.ge</a>
-        <a href="#" type="map">наб. Принсенграхт 263- 265, Амстердам</a>
-      </address>
+    <nav class="header-links">
+      <a href="#" class="header-link-no-underline">главная</a>
+      <a href="#" class="header-link-icon">посмотреть лоты</a>
+      <a href="#" class="header-link-icon">об аукционе</a>
     </nav>
+    <nav class="header-logo">
+      <a href="#"><img class="logo" src="./images/logo-black.svg" alt=""></a>
+    </nav>
+    <address class="header-adderss">
+      <a href="#" href="tel:+9 999 555 5555">+9 999 555 5555</a>
+      <a href="#" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      <a href="#" class="header-addres-no-underline" href="https://yandex.ru/maps">наб. Принсенграхт 263-<br>265,
+        Амстердам</a>
+    </address>
   </header>
-  <main class="main">
-    <div class="window">
-      <img class="cover" src="./images/cover.jpg"
-        alt="картинка с цветами нарисаванная маслянными красками">
+  <main class="cover">
+    <img class="cover-img" src="./images/cover.jpg" alt="картинка с цветами нарисаванная маслянными красками">
+    <div class="overlay"></div>
+    <div class="cover-content">
+      <span class="word-left">оно</span>
+      <span class="word-center">тебе</span>
+      <span class="word-right">надо</span>
+      <h2 class="subtitle">Аукцион вещей, в которые никто не верил</h2>
+      <a class="link-bit-button" href="https://ono-tebe-nado-drab.vercel.app/" target="_blank"><button class="bid-button">Сделать ставку</button></a>
     </div>
-    <h1 class="title_general">ОНО ТЕБЕ НАДО</h1>
-    <h2 class="subtatle">Аукцион вещей, в которые никто не верил</h2>
-    <button>Сделать ставку</button>
-
-
-
   </main>
+  <section class="lots"></section>
+  <section class="about"></section>
   <footer class="footer"></footer>
 </body>
 

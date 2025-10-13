@@ -1,0 +1,69 @@
+body {
+    box-sizing: border-box;
+}
+
+.header {
+    border: 1px solid black;
+    align-items: center;
+    color: black;
+    height: 293px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.header-links {
+    padding-left: 45px;
+    padding-bottom: 8px;
+    /* align-content: center; */
+    font-size: 18px;
+    font-weight: 400;
+    text-underline-offset: 4px;
+}
+
+.header-link-no-underline {
+    text-decoration: none;
+}
+
+.header-link-icon::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    background-image: url("../images/list_marker.png");
+    background-size: cover;
+    margin-right: 12px;
+    margin-left: 13px;
+    margin-bottom: 2px;
+}
+
+.logo {
+    width: 148px;
+    height: 105px;
+}
+
+.header-adderss {
+    /* justify-items: end; пока тут оставлю. */
+    text-underline-offset: 4px;
+}
+
+.header-adderss {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 187px;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 150%;
+}
+
+.header-adderss .header-addres-no-underline {
+    text-decoration: none;
+
+    line-height: 150%;
+}
