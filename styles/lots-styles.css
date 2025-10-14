@@ -1,0 +1,156 @@
+:root {
+        --width: 20.875rem;
+        --height: 37.25rem;
+}
+
+h3 {
+        font-size: 1.25rem;
+        font-weight: regular;
+        line-height: 120%;
+        
+}
+
+.lots {
+}
+.lots-title {
+        height: 430.33px;
+        border: 1px solid black;
+        font-weight: bold;
+        font-size: 27px;
+        text-transform: uppercase;
+        padding-left: 23px;
+        padding-top: 15.7%;
+}
+
+.lots-lots-one-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6); /* Черный с прозрачностью */
+        z-index: 1; /* Поверх фона, но под контентом */
+}
+
+.lots-lots-two-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6); /* Черный с прозрачностью */
+        z-index: 1; /* Поверх фона, но под контентом */
+}
+
+.lots-lots-tree-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6); /* Черный с прозрачностью */
+        z-index: 1; /* Поверх фона, но под контентом */
+}
+
+.lots-lots {
+        display: grid;
+        grid-template-rows: var(--height);
+        grid-template-columns: var(--width) var(--width) var(--width);
+        margin-left: 25px;
+        gap: 25px;
+}
+
+.lots-lots-one {
+        position: relative; /* для позиционирования оверлея*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: var(--width);
+        height: var(--height);
+        background: #000;
+        background-image: url(../images/card-lot-01.jpg);
+        background-size: cover;
+        background-position: center;
+}
+
+.lots-lots-one-description {
+        margin-left: 40px;
+        margin-top: 48px;
+        margin-right: 40px;
+}
+
+.lots-lots-one-text {
+        margin-left: 40px;
+        margin-bottom: 48px;
+        margin-right: 40px;
+}
+
+.lots-lots-one-description,
+.lots-lots-one-text,
+.lots-lots-one a {
+        position: relative; /* Важно! */
+        z-index: 2; /* Выше оверлея */
+        color: white; /* Чтобы был виден на темном фоне */
+}
+.lots-lots-two {
+        position: relative; /* для позиционирования оверлея*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: var(--width);
+        height: var(--height);
+        background: #000;
+        background-image: url(../images/card-lot-02.jpg);
+        background-size: cover;
+        background-position: center;
+}
+.lots-lots-two-description {
+        margin-left: 40px;
+        margin-top: 48px;
+        margin-right: 40px;
+}
+
+.lots-lots-two-text {
+        margin-left: 40px;
+        margin-bottom: 48px;
+        margin-right: 40px;
+}
+
+.lots-lots-two-description,
+.lots-lots-two-text,
+.lots-lots-two a {
+        position: relative; /* Важно! */
+        z-index: 2; /* Выше оверлея */
+        color: white; /* Чтобы был виден на темном фоне */
+}
+
+.lots-lots-three {
+          position: relative; /* для позиционирования оверлея*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: var(--width);
+        height: var(--height);
+        background: #000;
+        background-image: url(../images/card-lot-03.jpg);
+        background-size: cover;
+        background-position: center;
+}
+.lots-lots-three-description {
+        margin-left: 40px;
+        margin-top: 48px;
+        margin-right: 40px;
+}
+.lots-lots-three-text {
+        margin-left: 40px;
+        margin-bottom: 48px;
+        margin-right: 40px;
+}
+
+.lots-lots-three-description,
+.lots-lots-three-text,
+.lots-lots-three a {
+        position: relative; /* Важно! */
+        z-index: 2; /* Выше оверлея */
+        color: white; /* Чтобы был виден на темном фоне */
+}

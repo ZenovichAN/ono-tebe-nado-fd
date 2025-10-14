@@ -3,7 +3,6 @@ body {
 }
 
 .header {
-    border: 1px solid black;
     align-items: center;
     color: black;
     height: 293px;
@@ -59,11 +58,11 @@ body {
     font-weight: 400;
     font-size: 18px;
     font-style: normal;
-    line-height: 150%;
+    line-height: 1.5em;
 }
 
 .header-adderss .header-addres-no-underline {
     text-decoration: none;
 
-    line-height: 150%;
+    line-height: 1.5em;
 }
