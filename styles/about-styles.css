@@ -1,0 +1,17 @@
+.about {
+    width: 1052px;
+    height: 595px;
+    border: 1px solid black;
+}
+.logo-cirkl-overlay {
+    width: 240px;
+    height: 240px;
+    background: #000;
+    border-radius: 50%;
+}
+.label {
+}
+.about-title {
+}
+.about-text {
+}
