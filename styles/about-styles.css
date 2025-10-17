@@ -1,17 +1,72 @@
 .about {
-    width: 1052px;
-    height: 595px;
+    width: 1048px;
+    height: 620px;
+    margin-left: 25px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 280px 340px;
+    grid-template-columns: 356px 695px;
+    grid-template-areas:
+        "head-left head-right"
+        ". bottom-right";
+
     border: 1px solid black;
 }
-.logo-cirkl-overlay {
+.logo-cirkle-overlay {
+    position: absolute;
+    top: 31px;
+    left: 44px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Черный с прозрачностью */
+    z-index: 0;
     width: 240px;
     height: 240px;
-    background: #000;
+    background: #0a0909;
     border-radius: 50%;
 }
+
 .label {
+    width: 148px;
+    height: 114px;
+    position: relative;
+    left: 91px;
+    top: 96px;
+    z-index: 2;
+    grid-area: head-left;
 }
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 .about-title {
+    grid-area: head-right;
 }
+
+.about-title h2:first-child {
+    margin-top: 133px;
+}
+
 .about-text {
+    grid-area: bottom-right;
+}
+
+.about-text p {
+    font-size: 20px;
+    font-weight: regular;
+    line-height: 24px;
+}
+
+.about-text p:first-child {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+/* Отступ сверху у второго параграфа */
+.about-text p:last-child {
+    margin-top: 24px;
+    margin-right: 1px;
 }
