@@ -35,7 +35,7 @@ p {
         font-weight: bold;
         font-size: 27px;
         text-transform: uppercase;
-        padding-left: 22px;
+        padding-left: 24px;
         padding-top: 16.3%;
 }
 
@@ -118,10 +118,10 @@ p {
 .lots-two-description,
 .lots-two-text,
 .lots-two a {
-        position: relative; /* Важно! */
+        position: relative; 
         z-index: 2; /* Выше оверлея */
         color: white; /* Чтобы был виден на темном фоне */
 }
 a {
-z-index: 2;
+        z-index: 2;
 }

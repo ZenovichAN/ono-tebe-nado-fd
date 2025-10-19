@@ -16,9 +16,8 @@ body {
 }
 
 .header-links {
-    padding-left: 45px;
+    padding-left: 50px;
     padding-bottom: 8px;
-    /* align-content: center; */
     font-size: 18px;
     font-weight: 400;
     text-underline-offset: 4px;
@@ -36,7 +35,7 @@ body {
     background-image: url("../images/list_marker.png");
     background-size: cover;
     margin-right: 12px;
-    margin-left: 13px;
+    margin-left: 10px;
     margin-bottom: 2px;
 }
 
@@ -46,7 +45,6 @@ body {
 }
 
 .header-adderss {
-    /* justify-items: end; пока тут оставлю. */
     text-underline-offset: 4px;
 }
 
@@ -55,14 +53,21 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     padding-left: 187px;
+    padding-bottom: 5px;
     font-weight: 400;
     font-size: 18px;
     font-style: normal;
-    line-height: 1.5em;
+    line-height: 1.4em;
+}
+
+.header-addres-no-underline h3 {
+    text-transform: none;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 24px;
 }
 
 .header-adderss .header-addres-no-underline {
     text-decoration: none;
-
-    line-height: 1.5em;
 }

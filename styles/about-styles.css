@@ -9,9 +9,8 @@
     grid-template-areas:
         "head-left head-right"
         ". bottom-right";
-
-    border: 1px solid black;
 }
+
 .logo-cirkle-overlay {
     position: absolute;
     top: 31px;
