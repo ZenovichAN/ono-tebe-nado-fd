@@ -1,33 +1,51 @@
 body {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .header {
-    align-items: center;
-    color: black;
-    height: 293px;
+  align-items: center;
+  color: black;
+  height: 293px;
 }
 
 .header {
-    display: grid;
-    grid-template-columns: 1fr min-content 1fr;
-    grid-template-rows: 1fr;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
 }
 
 .header-links {
-    padding-left: 50px;
-    padding-bottom: 8px;
-    font-size: 18px;
-    font-weight: 400;
-    text-underline-offset: 4px;
+  padding-left: 50px;
+  padding-bottom: 8px;
+  font-size: 18px;
+  font-weight: 400;
+  text-underline-offset: 4px;
+  
+}
+
+.header-links ul {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  list-style: circle;
+  padding: 0;
+  margin: 0;
+  gap: 1px;
+}
+.header-links li:not(:last-child) {
+  margin-right: -5px; /* обычное расстояние */
+}
+
+.header-links li:nth-last-child(2) {
+  margin-right: -5px; /* меньшее расстояние для предпоследнего */
 }
 
 .header-link-no-underline {
-    text-decoration: none;
+  /* text-decoration: none; */
+  list-style: none;
 }
 
-.header-link-icon::before {
+/* .header-link-icon::before {
     content: "";
     width: 6px;
     height: 6px;
@@ -37,37 +55,37 @@ body {
     margin-right: 12px;
     margin-left: 10px;
     margin-bottom: 2px;
-}
+} */
 
 .logo {
-    width: 148px;
-    height: 105px;
+  width: 148px;
+  height: 105px;
 }
 
 .header-adderss {
-    text-underline-offset: 4px;
+  text-underline-offset: 4px;
 }
 
 .header-adderss {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding-left: 187px;
-    padding-bottom: 5px;
-    font-weight: 400;
-    font-size: 18px;
-    font-style: normal;
-    line-height: 1.4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 187px;
+  padding-bottom: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.4em;
 }
 
 .header-addres-no-underline h3 {
-    text-transform: none;
-    font-size: 18px;
-    font-weight: normal;
-    text-decoration: none;
-    line-height: 24px;
+  text-transform: none;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 24px;
 }
 
 .header-adderss .header-addres-no-underline {
-    text-decoration: none;
+  text-decoration: none;
 }

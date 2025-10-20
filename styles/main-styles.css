@@ -60,11 +60,11 @@
     letter-spacing: 0.5px;
     word-spacing: 15px;
     white-space: nowrap; /*чтобы слова не перносились*/
-    top: 650px;
+    top: 648px;
     left: 50px;
 }
 
-.bid-button {
+.link-bit {
     position: absolute;
     background: rgba(255, 255, 255, 0);
     color: white;
@@ -78,9 +78,10 @@
     left: 792px;
     word-spacing: -3px;
     padding: 10px 30px 13px 31px;
+    text-decoration: none;
 }
 
-.bid-button:hover {
+.link-bit:hover {
     background: rgba(36, 28, 28, 0.692);
     cursor: pointer;
 }
