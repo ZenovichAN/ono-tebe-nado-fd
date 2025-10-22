@@ -1,7 +1,7 @@
 .cover {
   position: relative; /*для корректной работы дочернего элемента*/
   display: block; /* чтобы контейнер был по размеру картинки */
-  background-image: url("/images/cover.jpg");
+  background-image: url("./images/cover.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
