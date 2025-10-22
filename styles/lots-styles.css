@@ -1,6 +1,6 @@
 :root {
         --width: 333px;
-        --height: 100%;
+        --min-height: 100%;
 }
 
 h3 {
@@ -20,7 +20,7 @@ p {
 
 .lots-container {
         display: grid;
-        grid-template-rows: var(--height);
+        grid-template-rows: var(--min-height);
         grid-template-columns: var(--width) var(--width) var(--width);
         margin-left: 24px;
         gap: 25px;
@@ -30,13 +30,14 @@ p {
         margin-top: -4px; /*так и не понял от куда прилетел зазор. костыль*/
 }
 
-.lots-title {
+h2 {
         height: 253px;
         font-weight: bold;
         font-size: 27px;
         text-transform: uppercase;
         padding-left: 63px;
-        padding-top: 16.3%;
+        padding-top: 184px;
+        margin-bottom: 3px;
 }
 
 .lots-see-more {
@@ -74,7 +75,7 @@ p {
         flex-direction: column;
         justify-content: space-between;
         width: var(--width);
-        height: var(--height);
+        height: var(--min-height);
         background: #000;
         background-size: cover;
         background-position: center;
@@ -94,7 +95,7 @@ p {
 .lots-two-text,
 .lots-three-text {
         margin-left: 40px;
-        margin-bottom: 48px;
+        margin-bottom: 30px;
         margin-right: 40px;
         z-index: 2;
 }

@@ -21,52 +21,52 @@ body {
   font-size: 18px;
   font-weight: 400;
   text-underline-offset: 4px;
-  
 }
 
 .header-links ul {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
+  display: flex;
   list-style: circle;
-  padding: 0;
+  padding-left: 0;
   margin: 0;
-  gap: 1px;
-}
-.header-links li:not(:last-child) {
-  margin-right: -5px; /* обычное расстояние */
+  gap: 21px;
 }
 
-.header-links li:nth-last-child(2) {
-  margin-right: -5px; /* меньшее расстояние для предпоследнего */
-}
-
-.header-link-no-underline {
-  /* text-decoration: none; */
+.header-links li:first-child {
   list-style: none;
 }
 
-/* .header-link-icon::before {
-    content: "";
-    width: 6px;
-    height: 6px;
-    display: inline-block;
-    background-image: url("../images/list_marker.png");
-    background-size: cover;
-    margin-right: 12px;
-    margin-left: 10px;
-    margin-bottom: 2px;
-} */
+.header-link-no-underline {
+  text-decoration: none;
+}
+
+/*дальше все сложно...*/
+/*контролю от буллита до текста */
+.header-links li:nth-child(2),
+.header-links li:nth-child(3) {
+  padding-left: 2px; /* Увеличьте для большего расстояния */
+  margin-left: 9px;
+  list-style-position: outside;
+}
+
+/* выбираю расстояние для каждой ссылки */
+.header-links li:nth-child(2) {
+  padding-left: 3px;
+}
+
+.header-links li:nth-child(3) {
+  padding-left: 3px;
+}
 
 .logo {
   width: 148px;
   height: 105px;
 }
 
-.header-adderss {
+.adderss {
   text-underline-offset: 4px;
 }
 
-.header-adderss {
+.adderss {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -78,7 +78,7 @@ body {
   line-height: 1.4em;
 }
 
-.header-addres-no-underline h3 {
+.addres-no-underline h3 {
   text-transform: none;
   font-size: 18px;
   font-weight: normal;
@@ -86,6 +86,6 @@ body {
   line-height: 24px;
 }
 
-.header-adderss .header-addres-no-underline {
+.adderss .addres-no-underline {
   text-decoration: none;
 }

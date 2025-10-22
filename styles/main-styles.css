@@ -1,87 +1,86 @@
 .cover {
-    position: relative; /*для корректной работы дочернего элемента*/
-    display: inline-block; /* чтобы контейнер был по размеру картинки */
-}
-
-.cover-img {
-    display: block;
-    width: 100%;
-    height: 757px;
-    background-position: center;
+  position: relative; /*для корректной работы дочернего элемента*/
+  display: block; /* чтобы контейнер был по размеру картинки */
+  background-image: url("/images/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  min-height: 757px;
 }
 
 .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; /* добавить высоту */
-    background: rgba(0, 0, 0, 0.6);
-    z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* добавить высоту */
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
 }
 
-.cover-content {
-    box-sizing: border-box;
-    position: absolute;
-    top: 20px;
-    z-index: 2; /* контент поверх оверлея */
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-size: 100px;
-    letter-spacing: 28px;
-    text-transform: uppercase;
+.cover-content h1 {
+  box-sizing: border-box;
+  position: absolute;
+  top: 20px;
+  z-index: 2; /* контент поверх оверлея */
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 100px;
+  letter-spacing: 28px;
+  text-transform: uppercase;
 }
 
 .word-left {
-    position: absolute;
-    top: 145px;
-    left: 52px;
+  position: absolute;
+  top: 145px;
+  left: 52px;
 }
 
 .word-right {
-    position: absolute;
-    top: 415px;
-    left: 665px;
+  position: absolute;
+  top: 415px;
+  left: 665px;
 }
 
 .word-center {
-    position: absolute;
-    top: 280px;
-    left: 383px;
+  position: absolute;
+  top: 280px;
+  left: 383px;
 }
 
 .subtitle {
-    position: absolute;
-    font-size: 22px;
-    font-weight: normal;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    word-spacing: 15px;
-    white-space: nowrap; /*чтобы слова не перносились*/
-    top: 648px;
-    left: 50px;
+  position: absolute;
+  font-size: 22px;
+  font-weight: normal;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  word-spacing: 15px;
+  white-space: nowrap; /*чтобы слова не перносились*/
+  top: 668px;
+  left: 51px;
 }
 
 .link-bit {
-    position: absolute;
-    background: rgba(255, 255, 255, 0);
-    color: white;
-    text-transform: uppercase;
-    white-space: nowrap;
-    letter-spacing: 0.5px;
-    font-size: 22px;
-    font-weight: normal;
-    border: 1px solid rgb(255, 255, 255);
-    top: 636px;
-    left: 792px;
-    word-spacing: -3px;
-    padding: 10px 30px 13px 31px;
-    text-decoration: none;
+  position: absolute;
+  background: rgba(255, 255, 255, 0);
+  color: white;
+  text-transform: uppercase;
+  white-space: nowrap;
+  letter-spacing: 0.5px;
+  font-size: 22px;
+  font-weight: normal;
+  border: 1px solid rgb(255, 255, 255);
+  top: 655px;
+  left: 793px;
+  word-spacing: -3px;
+  padding: 10px 30px 13px 31px;
+  text-decoration: none;
 }
 
 .link-bit:hover {
-    background: rgba(36, 28, 28, 0.692);
-    cursor: pointer;
+  background: rgba(36, 28, 28, 0.692);
+  cursor: pointer;
 }
