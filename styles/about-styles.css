@@ -1,6 +1,6 @@
 .about {
     width: 1048px;
-    height: 620px;
+    min-height: 620px;
     margin-left: 25px;
     position: relative;
     display: grid;
@@ -13,11 +13,11 @@
 
 .logo-cirkle-overlay {
     position: absolute;
-    top: 31px;
-    left: 44px;
+    top: 155px;
+    left: 45px;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6); /* Черный с прозрачностью */
+    background: rgba(0, 0, 0, 0.6);
     z-index: 0;
     width: 240px;
     height: 240px;
@@ -30,7 +30,7 @@
     height: 114px;
     position: relative;
     left: 91px;
-    top: 96px;
+    top: 220px;
     z-index: 2;
     grid-area: head-left;
 }
@@ -43,6 +43,8 @@ h2 {
 
 .about-title {
     grid-area: head-right;
+    padding-top: 124px;
+    padding-left: 2px;
 }
 
 .about-title h2:first-child {
@@ -51,12 +53,15 @@ h2 {
 
 .about-text {
     grid-area: bottom-right;
+    padding-top: 124px;
+    padding-left: 2px;
 }
 
 .about-text p {
     font-size: 20px;
     font-weight: regular;
     line-height: 24px;
+    color: #0a0909;
 }
 
 .about-text p:first-child {
@@ -64,7 +69,7 @@ h2 {
     margin-right: 20px;
 }
 
-/* Отступ сверху у второго параграфа */
+/*oтступ сверху у второго p*/
 .about-text p:last-child {
     margin-top: 24px;
     margin-right: 1px;
