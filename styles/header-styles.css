@@ -15,15 +15,18 @@ body {
   align-items: center;
 }
 
-.header-links {
-  padding-left: 50px;
-  padding-bottom: 8px;
+.links {
   font-size: 18px;
   font-weight: 400;
   text-underline-offset: 4px;
 }
 
-.header-links ul {
+.header__links {
+  padding-left: 50px;
+  padding-bottom: 8px;
+}
+
+.header__links ul {
   display: flex;
   list-style: circle;
   padding-left: 0;
@@ -31,29 +34,29 @@ body {
   gap: 21px;
 }
 
-.header-links li:first-child {
+.header__links li:first-child {
   list-style: none;
 }
 
-.header-link-no-underline {
+.link-no-underline {
   text-decoration: none;
 }
 
 /*дальше все сложно...*/
 /*контролю от буллита до текста */
-.header-links li:nth-child(2),
-.header-links li:nth-child(3) {
+.header__links li:nth-child(2),
+.header__links li:nth-child(3) {
   padding-left: 2px; /* Увеличьте для большего расстояния */
   margin-left: 9px;
   list-style-position: outside;
 }
 
 /* выбираю расстояние для каждой ссылки */
-.header-links li:nth-child(2) {
+.header__links li:nth-child(2) {
   padding-left: 3px;
 }
 
-.header-links li:nth-child(3) {
+.header__links li:nth-child(3) {
   padding-left: 3px;
 }
 
