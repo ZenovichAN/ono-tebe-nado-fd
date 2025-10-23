@@ -1,13 +1,11 @@
 .footer {
-    height: 180px;
-    width: 100%;
-    margin-top: 148px;
+    margin-top: 51px;
 }
 
 .footer-container {
     display: grid;
-    grid-template-rows: 180px;
-    grid-template-columns: 324px 350px 324px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 125px;
@@ -48,7 +46,7 @@
 
 .footer-socials {
     display: flex;
-    margin-left: 85px;
+    margin-left: 92px;
     justify-content: space-between;
 }
 

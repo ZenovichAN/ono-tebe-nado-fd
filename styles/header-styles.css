@@ -1,11 +1,8 @@
-body {
-  box-sizing: border-box;
-}
-
 .header {
   align-items: center;
   color: black;
-  height: 293px;
+  padding-top: 92px;
+  padding-bottom: 92px;
 }
 
 .header {

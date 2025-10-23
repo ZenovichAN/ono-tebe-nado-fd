@@ -74,8 +74,6 @@
   text-transform: uppercase;
   letter-spacing: 0.5px;
   word-spacing: 15px;
-  white-space: nowrap;
-  /* margin: 0; */
   margin-bottom: -50px; /*текст ниже*/
 }
 
