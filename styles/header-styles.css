@@ -40,15 +40,14 @@
 }
 
 /*дальше все сложно...*/
-/*контролю от буллита до текста */
+/*от буллита до текста */
 .header__links li:nth-child(2),
 .header__links li:nth-child(3) {
-  padding-left: 2px; /* Увеличьте для большего расстояния */
+  padding-left: 2px;
   margin-left: 9px;
   list-style-position: outside;
 }
 
-/* выбираю расстояние для каждой ссылки */
 .header__links li:nth-child(2) {
   padding-left: 3px;
 }

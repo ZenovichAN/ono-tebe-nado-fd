@@ -1,57 +1,55 @@
 .footer {
-    margin-top: 51px;
+  margin-top: 51px;
 }
 
 .footer-container {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 125px;
-    align-items: start; /* выравнивание по верху */
-    justify-content: space-between; /* равномерное распределение */
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 125px;
+  align-items: start;
+  justify-content: space-between;
 }
 
 .footer__address {
-    padding: 0;
-    margin-top: 2px;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: start; */
-    /* align-content: start; */
-    align-items: flex-start;
+  padding: 0;
+  margin-top: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .addres-no-underline h3 {
-    text-transform: none;
-    font-size: 18px;
-    font-weight: normal;
-    text-decoration: none;
-    line-height: 24px;
+  text-transform: none;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 24px;
 }
 
 .footer__links {
-    padding: 0;
-    padding-top: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
+  padding: 0;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
 }
 
 .footer__links .header-link-icon::before {
-    content: none;
+  content: none;
 }
 
 .footer-socials {
-    display: flex;
-    margin-left: 92px;
-    justify-content: space-between;
+  display: flex;
+  margin-left: 92px;
+  justify-content: space-between;
 }
 
 .footer-socials a {
-    width: 48px;
-    height: 48px;
-    margin-top: 5px;
+  width: 48px;
+  height: 48px;
+  margin-top: 5px;
 }

@@ -43,7 +43,6 @@
   padding-top: 143px;
 }
 
-/*словa по разным строкам*/
 .word-left {
   margin-bottom: 17px;
 }
@@ -57,7 +56,6 @@
   padding-left: 615px;
 }
 
-/*контейнер текста и кнопки*/
 .cover-bottom {
   display: flex;
   justify-content: space-between;
@@ -89,9 +87,8 @@
   padding: 10px 30px 13px 31px;
   text-decoration: none;
   word-spacing: -3px;
-  /* margin: 0; */
-  margin-bottom: -62px; /*кнопку еще ниже*/
-  margin-right: 30px; /*расстояние от текста */
+  margin-bottom: -62px;
+  margin-right: 30px;
 }
 
 .link-bit:hover {
