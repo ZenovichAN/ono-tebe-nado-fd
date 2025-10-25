@@ -51,12 +51,12 @@
 }
 
 .word-center {
-  margin-top: 15px;
+  margin-top: 20px;
   align-self: center;
 }
 
 .word-right {
-  margin-top: 20px;
+  margin-top: 17px;
   align-self: flex-end;
 }
 
