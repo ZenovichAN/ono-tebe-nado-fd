@@ -44,18 +44,11 @@
   margin-top: 100px;
 }
 
-.about-description {
+.about-text p {
   font-size: 20px;
   font-weight: normal;
   line-height: 24px;
   color: #000;
   margin-left: 3px;
-}
-
-.about-description-problem {
-  margin-bottom: 20px;
-}
-
-.about-description-culture {
-  margin-top: 24px;
+  margin-bottom: 25px;
 }
